@@ -17,12 +17,20 @@ Anpassa utseendet:
 
 Här nedan kommer ett antal punkter med sätt att anpassa utseendet på din Floyd-webbsida.
 
-+ För att ändra logotypen på webbplatsen lägger du in din valda logo i mappen för temat, *site/themes/mytheme*. Därefter får du gå in i *site/config* och ändra på rad 133 från *logo_80x80.png* till namnet på din logo. Där kan du även på de efterföljande raderna 134 och 135 ändra höjden och bredden på din logo. På rad 132 kan du även lägga till din logo som favicon om du skulle vilja.
-+ HEJ
-+ HEJ
-+ HEJ
-+ HEJ
-+ HEJ
++ Vid byte av logotypen på webbplatsen lägger du in din valda logo i mappen för temat, *site/themes/mytheme*. Därefter får du gå in i *site/config* och ändra på rad 133 från *logo_80x80.png* till namnet på din logo. Där kan du även på de efterföljande raderna 134 och 135 ändra höjden och bredden på din logo. På rad 132 kan du även lägga till din logo som favicon om du skulle vilja.
++ Vid byte av sidans huvudtitel är det *site/config* och rad 130, header, som gäller. Där står det för närvarande titeln *Floyd* som ramverket orginaltitle. Ändra till den titel du vill ha.   
++ Vid byte av sidans slogan är det samma som i fallet med header. *site/config* och denna gång rad 131, slogan. *A PHP-based MVC-inspired CMF* står det från start, byt till vad du vill.
++ Vid byte av texten i sidans footer är det *site/config*, rad 136, footer och där det för närvarande står *Floyd &copy; by Johannes (burt@floyd.se)*. Bara att byta.
+
+<pre>
+130: 'header' => 'Floyd',
+131: 'slogan' => 'A PHP-based MVC-inspired CMF',
+132: 'favicon' => 'logo_80x80.png',
+133: 'logo' => 'logo_80x80.png',
+134: 'logo_width' => 80,
+135: 'logo_height' => 80,
+136: 'footer' => '<p>Floyd &copy; by Johannes (burt@floyd.se)</p>',
+</pre>
 
 En till punkt:
 -----
