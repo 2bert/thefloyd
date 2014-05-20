@@ -35,7 +35,7 @@ Här nedan kommer ett antal punkter med sätt att anpassa utseendet på din Floy
 + Vid förändring, byte eller tillägg av navigerings menyn så är det mellan rad 146-157 som gäller. När du har installerat färdigt ramverket så kommer det med den förvalda *my-navbaren* se rad 154 i *site/config* koden här under. *my-navbar*-menyn är nerskalad för my-temat. Vill du i stället använda grundmenyn för Floyd-ramverket får du gå på rad 128 och ändra från *my-navbar* till *navbar*. För att lägga till din skapade sida i menyerna skriver du namnet på din sida, namnet du vill ha i menyen och till sist urlen. Till exempel *page/view/*+id på posten du skapat.
 
 <pre>
-'menu_to_region' => array('my-navbar'=>'navbar'),
+128: 'menu_to_region' => array('my-navbar'=>'navbar'),
 </pre>
 <pre>
 146: $fl->config['menus'] = array(
