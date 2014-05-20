@@ -32,6 +32,26 @@ Här nedan kommer ett antal punkter med sätt att anpassa utseendet på din Floy
 136: 'footer' => '&lt;p&gt;Floyd &copy; by Johannes (burt@floyd.se)&lt;/p&gt;',
 </pre>
 
++ Vid förändring, byte eller tillägg av navigerings menyn så är det mellan rad 146-157 som gäller. När du har installerat färdigt ramverket så kommer det med den förvalda *my-navbaren* se rad 154 i *site/config* koden här under. *my-navbar*-menyn är nerskalad för my-temat. Vill du i stället använda grundmenyn för Floyd-ramverket får du gå på rad 128 och ändra från *my-navbar* till *navbar*. För att lägga till din skapade sida i menyerna skriver du namnet på din sida, namnet du vill ha i menyen och till sist urlen. Till exempel *page/view/*+id på posten du skapat.
+
+<pre>
+'menu_to_region' => array('my-navbar'=>'navbar'),
+</pre>
+<pre>
+146: $fl->config['menus'] = array(
+147:  'navbar' => array(
+148:    'home' => array('label'=>'Home', 'url'=>'home'),
+149:    'modules' => array('label'=>'Modules', 'url'=>'module'),
+150:    'content' => array('label'=>'Content', 'url'=>'content'),
+151:    'guestbook' => array('label'=>'Guestbook', 'url'=>'guestbook'),
+152:    'blog' => array('label'=>'Blog', 'url'=>'blog'),
+153:  ),
+154:  'my-navbar' => array(
+155:    'home' => array('label'=>'About Me', 'url'=>'my'),
+156:    'blog' => array('label'=>'My Blog', 'url'=>'my/blog'),
+157:    'guestbook' => array('label'=>'Guestbook', 'url'=>'my/guestbook'),
+</pre>
+    
 En till punkt:
 -----
 Här kommer text om något...
