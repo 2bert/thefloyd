@@ -14,8 +14,8 @@
     <div id='header'>
       <div id='login-menu'><?=login_menu()?></div>
       <div id='banner'>
-        <a href='http://www.student.bth.se/~jobe14/phpmvc/floyd7sida/'><img id='site-logo' src='<?=theme_url($logo)?>' alt='logo' width='<?=$logo_width?>' height='<?=$logo_height?>' /></a>
-        <span id='site-title'><a href='http://www.student.bth.se/~jobe14/phpmvc/floyd7sida/'><?=$header?></a></span>
+        <a href='http://www.student.bth.se/~jobe14/phpmvc/thefloyd/'><img id='site-logo' src='<?=theme_url($logo)?>' alt='logo' width='<?=$logo_width?>' height='<?=$logo_height?>' /></a>
+        <span id='site-title'><a href='http://www.student.bth.se/~jobe14/phpmvc/thefloyd/'><?=$header?></a></span>
         <span id='site-slogan'><?=$slogan?></span>
       </div>
       <?php if(region_has_content('navbar')): ?>

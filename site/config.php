@@ -125,7 +125,7 @@ $fl->config['theme'] = array(
     'footer-column-one','footer-column-two','footer-column-three','footer-column-four',
     'footer',
   ),
-  'menu_to_region' => array('navbar'=>'navbar'),
+  'menu_to_region' => array('my-navbar'=>'navbar'),
   'data' => array(
     'header' => 'Floyd',
     'slogan' => 'A PHP-based MVC-inspired CMF',
