@@ -29,7 +29,7 @@ Här nedan kommer ett antal punkter med sätt att anpassa utseendet på din Floy
 133: 'logo' => 'logo_80x80.png',
 134: 'logo_width' => 80,
 135: 'logo_height' => 80,
-136: 'footer' => '<p>Floyd &copy; by Johannes (burt@floyd.se)</p>',
+136: 'footer' => '&lt;p&gt;Floyd &copy; by Johannes (burt@floyd.se)&lt;/p&gt;',
 </pre>
 
 En till punkt:
