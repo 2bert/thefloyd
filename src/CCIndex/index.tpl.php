@@ -4,15 +4,15 @@
 <h2>Download</h2>
 <p>You can download Floyd from github.</p>
 <blockquote>
-<code>git clone git://github.com/2bert/Floyd.git</code>
+<code>git clone git://github.com/2bert/thefloyd.git</code>
 </blockquote>
-<p>You can review its source directly on github: <a href='https://github.com/2bert/Floyd'>https://github.com/2bert/Floyd</a></p>
+<p>You can review its source directly on github: <a href='https://github.com/2bert/thefloyd'>https://github.com/2bert/thefloyd</a></p>
 
 <h2>Installation</h2>
 <p>First you have to make the data-directory writable. This is the place where Floyd needs
 to be able to write and create files.</p>
 <blockquote>
-<code>cd floyd; chmod 777 site/data</code>
+<code>cd thefloyd; chmod 777 site/data</code>
 </blockquote>
 
 <p>Second, Floyd has some modules that need to be initialised. You can do this through a 
