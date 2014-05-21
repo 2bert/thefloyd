@@ -71,3 +71,7 @@ Skapa innehåll i form av blogg eller sida:
 3. Content: Lägger du in allt innehåll du vill ha på sidan/bloggen.
 4. Type: Här väljer du *post* för att skapa ett blogginlägg och *page* för att skapa en sida.
 5. Filter: Här väljer du hur du vill formatera din text. Till exempel med *bbcode*.
+6. Create/delete: Sen är det bara klicka *Create* för att skapa eller *Delete* för att ta bort och börja om.
+
++ Du kan alltid komma åt alla dina sidor och blogginlägg om du lägger till *content* i din sökväg i webbläsaren. Där kan du även välja *edit* för att ändra innhållet på det du skapat eller *view* för att se innehållet.
+
