@@ -61,6 +61,13 @@ Här nedan kommer ett antal punkter med sätt att anpassa utseendet på din Floy
 
 + Är det något som inte finns med i *site/themes/mytheme/style.css* som du vill ändra, så går det bra att addera det eftersom denna tema-style extendar hela webbplatsens style så finns inte allt med i denna extendning av *style.css*.
 
-En till punkt:
+Skapa innehåll i form av blogg eller sida:
 -----
-Här kommer text om något...
+
++ Om du vill skapa ett nytt blogginlägg eller en ny statisksida så får du lägga till *content/create* i din sökväg i webbläsaren(eller om du har ändrat till navbar-menyn välja content och på den sidan finns det en länk under *actions* som heter *Create new content*).
+
+1. Title: Här väljer du din sida/bloggs title.
+2. Key: Här väljer du sidan/bloggens nyckelord.
+3. Content: Lägger du in allt innehåll du vill ha på sidan/bloggen.
+4. Type: Här väljer du *post* för att skapa ett blogginlägg och *page* för att skapa en sida.
+5. Filter: Här väljer du hur du vill formatera din text. Till exempel med *bbcode*.
