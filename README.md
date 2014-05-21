@@ -32,7 +32,7 @@ Här nedan kommer ett antal punkter med sätt att anpassa utseendet på din Floy
 136: 'footer' => '&lt;p&gt;Floyd &copy; by Johannes (burt@floyd.se)&lt;/p&gt;',
 </pre>
 
-+ Vid förändring, byte eller tillägg av navigerings menyn så är det mellan rad 146-157 som gäller. När du har installerat färdigt ramverket så kommer det med den förvalda *my-navbaren* se rad 154 i *site/config* koden här under. *my-navbar*-menyn är nerskalad för my-temat. Vill du i stället använda grundmenyn för Floyd-ramverket får du gå på rad 128 och ändra från *my-navbar* till *navbar*. För att lägga till din skapade sida i menyerna skriver du namnet på din sida, namnet du vill ha i menyen och till sist urlen. Till exempel *page/view/*+id på posten du skapat.
++ Vid förändring, byte eller tillägg av navigerings menyn så är det mellan rad 146-157 som gäller. När du har installerat färdigt ramverket så kommer det med den förvalda *my-navbaren* se rad 154 i *site/config* koden här under. *my-navbar*-menyn är nerskalad för my-temat. Vill du i stället använda grundmenyn för Floyd-ramverket får du gå på rad 128 och ändra från *my-navbar* till *navbar*. För att lägga till din skapade sida i menyerna skriver du namnet på din sida, namnet du vill ha i menyen och till sist urlen. Till exempel *page/view/*+id på sidan du skapat.
 
 <pre>
 128: 'menu_to_region' => array('my-navbar'=>'navbar'),
@@ -51,7 +51,16 @@ Här nedan kommer ett antal punkter med sätt att anpassa utseendet på din Floy
 156:    'blog' => array('label'=>'My Blog', 'url'=>'my/blog'),
 157:    'guestbook' => array('label'=>'Guestbook', 'url'=>'my/guestbook'),
 </pre>
-    
+
++ Det finns även möjlighter att ändra webbplatsens/temats utseende. Detta görs i *site/themes/mytheme* i filen *style.css*. Här kan du ändra utseendet på bland annat bodyn, header, footer, menyn och så vidare.
+  Exempelvis om du vill ändra sidans header så går du till rad 8, *#outer-wrap-header* och ändrar *background-color:#FFBAD2;* för bakgrundsfärgen och *border-bottom:2px solid #555* för bordern i botten av headern.
+  
+<pre>
+8: #outer-wrap-header{background-color:#FFBAD2;border-bottom:2px solid #555}
+</pre>  
+
++ Är det något som inte finns med i *site/themes/mytheme/style.css* som du vill ändra, så går det bra att addera det eftersom denna tema-style extendar hela webbplatsens style så finns inte allt med i denna extendning av *style.css*.
+
 En till punkt:
 -----
 Här kommer text om något...
